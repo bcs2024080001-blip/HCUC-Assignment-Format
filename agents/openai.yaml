@@ -1,0 +1,6 @@
+interface:
+  display_name: "论文纯排版"
+  short_description: "严格按校规排版论文，绝不改动正文内容"
+  default_prompt: "使用 $thesis-formatting-only 严格整理这篇论文的格式，绝不修改任何正文内容。"
+policy:
+  allow_implicit_invocation: true
